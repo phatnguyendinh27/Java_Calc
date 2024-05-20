@@ -24,7 +24,7 @@ public class Calculator implements ActionListener {
         frame.setSize(520, 520);
 
         // Create the text panel and the button panel
-        TextFieldPanel textPanel = new TextFieldPanel();
+        textPanel = new TextFieldPanel();
         ButtonPanel buttonPanel = new ButtonPanel(this);
 
         // Create the master panel
